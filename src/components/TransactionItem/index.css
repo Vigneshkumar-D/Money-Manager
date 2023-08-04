@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.transaction-list {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #7e858e;
+  border-top: none;
+  height: 45px; */
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border-bottom: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  border-left: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+}
+.delete-img {
+  height: 27px;
+  width: 27px;
+  align-self: flex-end;
+}
+.transaction-details {
+  font-size: 17x;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #475569;
+}

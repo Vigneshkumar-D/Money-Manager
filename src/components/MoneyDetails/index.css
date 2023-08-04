@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.money-details-bg-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px;
+    
+}
+.balance-bg-container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    background-color: #ecfccb;
+    border: 1px solid #84cc16;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    min-width: 300px;    
+    flex-grow: 1;  
+    flex-shrink: 1;
+    margin-right: 20px;  
+}
+.balance-text-container, .expenses-text-container, .income-text-container{
+    padding-left: 25px;
+}
+.balance-image{
+    height: 70px;
+    width: 70px;
+    align-self: center;
+}
+
+.income-bg-container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    background-color:  #cffafe;
+    border: 1px solid  #06b6d4;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 300px;   
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 20px;  
+}
+.expenses-bg-container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    background-color: #ede9fe;
+    border: 1px solid #7c3aed;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+     min-width: 400px;
+}
+.income-para{
+    font-family: "Roboto";
+    font-size: 17px;
+    color: #475569;
+}
+.balance, .income, .expenses{
+    font-family: "Roboto";
+    font-size: 19px;
+    color: #475569;
+    font-weight: 600;
+
+}
